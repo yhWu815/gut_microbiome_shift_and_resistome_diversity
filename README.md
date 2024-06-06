@@ -1,4 +1,4 @@
-# Original OTU data and Code
+# Data and Code
 
 ## Operating System Requirement
 
