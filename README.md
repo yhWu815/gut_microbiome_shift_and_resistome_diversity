@@ -84,6 +84,8 @@ dependencies:
 
 - **rpkm.genes.txt**: ARGs grouped by genes processed by [ARGs-OAP v3.0](https://github.com/xinehc/args_oap)
 
+- **lefse_results.txt.xls**: lefse analysis result produced by [Magigene Cloud Platform](http://cloud.magigene.com/).
+
 ## Python scripts and jupyter notebook files
 
 - **data_analysis_visualization.ipynb**: Script for Relative Abundance, Microbial Diversity analysis and Data visualization.
