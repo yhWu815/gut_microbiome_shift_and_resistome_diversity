@@ -1,0 +1,335 @@
+biomarkerID	-log10(abundance)	Group	LDA	p-value
+p_Proteobacteria.c_Gammaproteobacteria.o_Burkholderiales.f_Comamonadaceae.g_Comamonas	1.97596630277			-
+p_Actinobacteriota.c_Actinobacteria.o_Corynebacteriales.f_Nocardiaceae	0.944491705569			-
+p_Firmicutes.c_Bacilli.o_Lactobacillales.f_Streptococcaceae.g_Lactococcus.s_Lactococcus_garvieae	2.14413204452	InitialStage	3.57559722145	0.00304765954782
+p_Proteobacteria.c_Alphaproteobacteria.o_Rhizobiales.f_Rhizobiaceae.g_Allorhizobium_Neorhizobium_Pararhizobium_Rhizobium.s_Rhizobium_sp_	1.08090816261			-
+p_Actinobacteriota.c_Actinobacteria.o_Micrococcales.f_Cellulomonadaceae	0.779079025096			-
+p_Proteobacteria.c_Alphaproteobacteria.o_Sphingomonadales.f_Sphingomonadaceae.g_Ellin6055	0.643461709905			-
+p_Firmicutes.c_Bacilli.o_Lactobacillales.f_Aerococcaceae.g_Globicatella	1.60861489443			-
+p_Proteobacteria.c_Gammaproteobacteria.o_Enterobacterales.f_Yersiniaceae	1.65691157703			-
+p_Proteobacteria.c_Gammaproteobacteria.o_Burkholderiales.f_Nitrosomonadaceae.g_MND1	0.804611105797			-
+p_Proteobacteria.c_Alphaproteobacteria.o_Rhizobiales.f_Xanthobacteraceae.g_Bradyrhizobium.s_Bradyrhizobium_japonicum	0.517174991517			-
+p_Firmicutes.c_Negativicutes	1.99304764288			-
+p_Patescibacteria.c_Saccharimonadia	1.31602213655			-
+p_Firmicutes.c_Clostridia.o_Clostridiales.f_Clostridiaceae.g_Clostridium_sensu_stricto_1	5.12942684355	EndStage	4.77907708264	0.028804541243
+p_Actinobacteriota.c_Actinobacteria.o_Micrococcales.f_Micrococcaceae.g_Rothia.s_Rothia_nasimurium	1.49096692268			-
+p_Patescibacteria	1.31602213655			-
+p_Actinobacteriota.c_Actinobacteria.o_Micrococcales.f_Dermacoccaceae.g_Dermacoccus	0.643461709905			-
+p_Proteobacteria.c_Gammaproteobacteria.o_Enterobacterales.f_Yersiniaceae.g_Serratia	1.62725278025			-
+p_Firmicutes.c_Bacilli.o_Lactobacillales.f_Lactobacillaceae.g_Lactobacillus.s_Lactobacillus_plantarum	1.89162913776			-
+p_Proteobacteria.c_Gammaproteobacteria.o_Xanthomonadales.f_Xanthomonadaceae.g_Xanthomonas.s_Xanthomonas_translucens_pv__translucens	0.973691666739	Control	4.45283546695	0.0436987936463
+p_Bdellovibrionota.c_Bdellovibrionia	0.973299260023			-
+p_Proteobacteria.c_Gammaproteobacteria.o_Burkholderiales.f_Burkholderiaceae.g_Ralstonia	0.80057499862			-
+p_Firmicutes.c_Bacilli.o_Lactobacillales.f_Enterococcaceae.g_Enterococcus.s_Enterococcus_rivorum	1.66481656853			-
+p_Actinobacteriota.c_Actinobacteria.o_Micrococcales.f_Cellulomonadaceae.g_Oerskovia	0.779079025096			-
+p_Actinobacteriota.c_Actinobacteria.o_Micrococcales.f_Micrococcaceae.g_Kocuria	0.944491705569			-
+p_Firmicutes.c_Clostridia.o_Peptostreptococcales_Tissierellales.f_Peptostreptococcaceae.g_Paeniclostridium.s_Paeniclostridium_sordellii	1.08662323016			-
+p_Actinobacteriota.c_Actinobacteria.o_Micrococcales.f_Dermabacteraceae	0.804611105797			-
+p_Proteobacteria.c_Gammaproteobacteria.o_Enterobacterales.f_Morganellaceae.g_Arsenophonus	0.965726943893			-
+p_Actinobacteriota.c_Actinobacteria.o_Pseudonocardiales.f_Pseudonocardiaceae	1.20491366776			-
+p_Proteobacteria.c_Alphaproteobacteria.o_Rhizobiales.f_Xanthobacteraceae.g_Bradyrhizobium.s_Bradyrhizobium_sp__URHD0069	0.944491705569			-
+p_Actinobacteriota.c_Actinobacteria.o_Corynebacteriales.f_Nocardiaceae.g_Rhodococcus	0.944491705569			-
+p_Proteobacteria.c_Alphaproteobacteria.o_Sphingomonadales.f_Sphingomonadaceae.g_Altererythrobacter	0.958196076466	Control	4.56375029685	0.0436987936463
+p_Actinobacteriota.c_Actinobacteria.o_Pseudonocardiales.f_Pseudonocardiaceae.g_Saccharopolyspora	1.20491366776			-
+p_Proteobacteria.c_Gammaproteobacteria.o_Pasteurellales.f_Pasteurellaceae.g_Actinobacillus.s_Bisgaard_Taxon_10	0.98009577012			-
+p_Proteobacteria.c_Gammaproteobacteria.o_Xanthomonadales.f_Xanthomonadaceae.g_Stenotrophomonas.s_Stenotrophomonas_sp_	1.78993175064			-
+p_Firmicutes.c_Bacilli.o_Lactobacillales.f_Lactobacillaceae.g_Lactobacillus.s_Lactobacillus_sakei	4.57481075563			-
+p_Proteobacteria.c_Alphaproteobacteria.o_Rhizobiales.f_Rhizobiaceae.g_Shinella	0.944491705569			-
+p_Proteobacteria.c_Alphaproteobacteria	2.65191525293			-
+p_Firmicutes.c_Bacilli.o_Lactobacillales.f_Lactobacillaceae.g_Lactobacillus	4.58793738247			-
+p_Proteobacteria.c_Alphaproteobacteria.o_Dongiales.f_Dongiaceae	0.643461709905			-
+p_Firmicutes.c_Bacilli.o_Paenibacillales.f_Paenibacillaceae.g_Paenibacillus.s_Paenibacillus_sp__canine_oral_taxon_438	1.63670194367			-
+p_Proteobacteria.c_Gammaproteobacteria.o_Burkholderiales.f_Alcaligenaceae	1.59564075888			-
+p_Actinobacteriota.c_Actinobacteria.o_Micrococcales	2.39625815727			-
+p_Actinobacteriota.c_Actinobacteria.o_Micrococcales.f_Micrococcaceae	2.10073662725			-
+p_Firmicutes.c_Bacilli.o_Lactobacillales.f_Lactobacillaceae.g_Lactobacillus.s_Lactobacillus_pontis	2.66703145148			-
+p_Proteobacteria.c_Gammaproteobacteria.o_Xanthomonadales.f_Xanthomonadaceae.g_Luteimonas	0.799714616337			-
+p_Firmicutes.c_Bacilli.o_Bacillales.f_Planococcaceae.g_Psychrobacillus.s_Psychrobacillus_psychrodurans	1.39115566321			-
+p_Proteobacteria	5.73200368284	InitialStage	5.41685584378	0.00125508051189
+p_Actinobacteriota.c_Actinobacteria.o_Corynebacteriales.f_Corynebacteriaceae	1.27077796517			-
+p_Firmicutes.c_Bacilli.o_Lactobacillales	5.98434243923	Control	5.49764333856	0.00130630131925
+p_Acidobacteriota.c_Acidobacteriae	1.37717139188	EndStage	3.79855907171	0.0225095766151
+p_Firmicutes.c_Bacilli.o_Bacillales.f_Bacillaceae.g_Oceanobacillus	1.94825606856			-
+p_Proteobacteria.c_Gammaproteobacteria.o_Pseudomonadales.f_Moraxellaceae.g_Acinetobacter.s_Acinetobacter_lwoffii_NCTC_5866_	1.56429584183			-
+p_Firmicutes.c_Negativicutes.o_Veillonellales_Selenomonadales.f_Veillonellaceae.g_Veillonella	1.99304764288			-
+p_Firmicutes.c_Bacilli	5.98464637041	Control	5.48840056901	0.00135358317366
+p_Actinobacteriota.c_Actinobacteria.o_Micrococcales.f_Microbacteriaceae.g_Leucobacter.s_Leucobacter_tardus	1.38953446061			-
+p_Firmicutes.c_Bacilli.o_Paenibacillales.f_Paenibacillaceae.g_Paenibacillus.s_Paenibacillus_camelliae	1.43424970868			-
+p_Proteobacteria.c_Gammaproteobacteria.o_Pseudomonadales.f_Moraxellaceae.g_Acinetobacter.s_Acinetobacter_junii	2.12301607495			-
+p_Actinobacteriota	2.4576850723	InitialStage	2.89840227341	0.0285269910154
+p_Proteobacteria.c_Alphaproteobacteria.o_Acetobacterales.f_Acetobacteraceae.g_Roseomonas	0.779079025096			-
+p_Actinobacteriota.c_Actinobacteria.o_Micrococcales.f_Micrococcaceae.g_Arthrobacter.s_Arthrobacter_sp__Edens01	1.96363527374			-
+p_Acidobacteriota.c_Acidobacteriae.o_Acidobacteriales.f_Acidobacteriaceae_Subgroup_1	1.24170462214			-
+p_Actinobacteriota.c_Actinobacteria.o_Micrococcales.f_Micrococcaceae.g_Arthrobacter	1.96363527374			-
+p_Firmicutes.c_Bacilli.o_Paenibacillales.f_Paenibacillaceae.g_Paenibacillus.s_Paenibacillus_sp__FSL_R5_0345	1.99637325582			-
+p_Firmicutes.c_Clostridia.o_Peptostreptococcales_Tissierellales.f_Peptostreptococcaceae	4.09570807553	EndStage	3.80965959844	0.00311629304199
+p_Bacteroidota.c_Bacteroidia.o_Bacteroidales.f_Porphyromonadaceae.g_Porphyromonas.s_Porphyromonadaceae_bacterium_FC4	1.6582155814	Control	4.0157532298	0.0436987936463
+p_Proteobacteria.c_Alphaproteobacteria.o_Acetobacterales.f_Acetobacteraceae	2.61456205804	InitialStage	2.69242531747	0.0362851257055
+p_Proteobacteria.c_Alphaproteobacteria.o_Acetobacterales.f_Acetobacteraceae.g_Acetobacter	0.956858435193			-
+p_Firmicutes.c_Bacilli.o_Lactobacillales.f_Enterococcaceae.g_Enterococcus.s_Enterococcus_casseliflavus	2.92955899158	InitialStage	2.75742561468	0.00703472589847
+p_Actinobacteriota.c_Actinobacteria.o_Micrococcales.f_Microbacteriaceae.g_Curtobacterium	1.12058296463			-
+p_Firmicutes.c_Bacilli.o_Bacillales.f_Planococcaceae.g_Solibacillus	1.32740687551			-
+p_Firmicutes.c_Bacilli.o_Bacillales.f_Sporolactobacillaceae	1.8627343593			-
+p_Proteobacteria.c_Alphaproteobacteria.o_Sphingomonadales.f_Sphingomonadaceae.g_Sphingomonas.s_Sphingomonas_sp__JGI_0001002_A17	0.984231861075			-
+p_Proteobacteria.c_Gammaproteobacteria.o_Pasteurellales.f_Pasteurellaceae.g_Actinobacillus	2.42108578325			-
+p_Firmicutes.c_Bacilli.o_Lactobacillales.f_Leuconostocaceae.g_Weissella.s_Weissella_confusa	4.47854019774			-
+p_Firmicutes.c_Clostridia.o_Peptostreptococcales_Tissierellales.f_Peptostreptococcaceae.g_Romboutsia.s_Clostridium_sp__K39	1.62026187712	EndStage	3.87365371429	0.0263056741678
+p_Firmicutes.c_Bacilli.o_Bacillales.f_Sporolactobacillaceae.g_Scopulibacillus.s_Scopulibacillus_daqui	0.49244500166			-
+p_Firmicutes.c_Clostridia.o_Lachnospirales.f_Lachnospiraceae.g_Cellulosilyticum.s_bacterium_PS7	0.779079025096			-
+p_Actinobacteriota.c_Actinobacteria.o_Corynebacteriales.f_Corynebacteriaceae.g_Corynebacterium	1.27077796517			-
+p_Firmicutes.c_Bacilli.o_Lactobacillales.f_Enterococcaceae.g_Enterococcus.s_Enterococcus_asini_ATCC_700915	0.789519372232			-
+p_Firmicutes.c_Clostridia.o_Peptostreptococcales_Tissierellales.f_Peptostreptococcaceae.g_Romboutsia	3.00343750699	InitialStage	3.29534511901	0.000197810975352
+p_Firmicutes.c_Negativicutes.o_Veillonellales_Selenomonadales.f_Veillonellaceae.g_Dialister	1.13603509683			-
+p_Proteobacteria.c_Gammaproteobacteria.o_Pseudomonadales.f_Moraxellaceae	2.94241926951			-
+p_Firmicutes.c_Clostridia	5.1686130925	EndStage	4.8240479658	0.0191373929621
+p_Proteobacteria.c_Gammaproteobacteria.o_Burkholderiales	2.42468496235			-
+p_Firmicutes.c_Bacilli.o_Lactobacillales.f_Enterococcaceae.g_Enterococcus.s_Enterococcus_mundtii	1.88704655072			-
+p_Actinobacteriota.c_Acidimicrobiia	0.514636375148			-
+p_Firmicutes.c_Clostridia.o_Clostridiales	5.12948801751	EndStage	4.7791465265	0.028804541243
+p_Firmicutes.c_Bacilli.o_Lactobacillales.f_Streptococcaceae.g_Streptococcus	5.98124107367	Control	5.64157423508	0.000108908769855
+p_Actinobacteriota.c_Actinobacteria.o_Micrococcales.f_Dermacoccaceae.g_Dermacoccus.s_Dermacoccus_nishinomiyaensis	0.643461709905			-
+p_Proteobacteria.c_Gammaproteobacteria.o_Enterobacterales.f_Yersiniaceae.g_Rahnella1.s_Serratia_sp__HC4_9	0.643461709905			-
+p_Proteobacteria.c_Gammaproteobacteria.o_Burkholderiales.f_Neisseriaceae	1.89600769422			-
+p_Firmicutes.c_Bacilli.o_Bacillales.f_Bacillaceae	2.52625421657			-
+p_Proteobacteria.c_Gammaproteobacteria.o_Pseudomonadales.f_Moraxellaceae.g_Acinetobacter.s_Acinetobacter_bereziniae	0.785614521472			-
+p_Proteobacteria.c_Alphaproteobacteria.o_Caulobacterales.f_Caulobacteraceae	1.12058296463			-
+p_Proteobacteria.c_Alphaproteobacteria.o_Sphingomonadales.f_Sphingomonadaceae.g_Sphingomonas	1.78717913401			-
+p_Firmicutes.c_Clostridia.o_Lachnospirales	2.36555287664			-
+p_Proteobacteria.c_Gammaproteobacteria.o_Pasteurellales.f_Pasteurellaceae	2.55105682555			-
+p_Bacteroidota.c_Bacteroidia.o_Sphingobacteriales.f_Sphingobacteriaceae	1.44377830491	InitialStage	3.71716162305	0.0488382233745
+p_Firmicutes.c_Bacilli.o_Bacillales.f_Bacillaceae.g_Geobacillus.s_Geobacillus_sp__AKNT12	0.500611253697			-
+p_Planctomycetota	0.820499913637			-
+p_Proteobacteria.c_Gammaproteobacteria.o_Xanthomonadales.f_Xanthomonadaceae.g_Xanthomonas	1.43986537625			-
+p_Firmicutes.c_Bacilli.o_Lactobacillales.f_Streptococcaceae.g_Streptococcus.s_Streptococcaceae_bacterium	1.20337052821			-
+p_Firmicutes.c_Bacilli.o_Lactobacillales.f_Lactobacillaceae.g_Lactobacillus.s_Lactobacillus_brevis	1.57161910829			-
+p_Firmicutes.c_Bacilli.o_Thermoactinomycetales.f_Thermoactinomycetaceae	2.40941389511			-
+p_Firmicutes.c_Bacilli.o_Bacillales	3.00359254516			-
+p_Acidobacteriota.c_Vicinamibacteria	0.517174991517			-
+p_Firmicutes.c_Bacilli.o_Lactobacillales.f_Enterococcaceae.g_Enterococcus.s_Enterococcus_faecalis	2.32328317121	InitialStage	3.15337083214	0.00949689739748
+p_Firmicutes.c_Bacilli.o_Lactobacillales.f_Enterococcaceae.g_Enterococcus.s_Enterococcus_sulfureus	1.33038626427			-
+p_Proteobacteria.c_Gammaproteobacteria.o_Enterobacterales	5.72952592973	InitialStage	5.41478334135	0.00125508051189
+p_Acidobacteriota.c_Vicinamibacteria.o_Vicinamibacterales.f_Vicinamibacteraceae	0.517174991517			-
+p_Firmicutes.c_Clostridia.o_Clostridiales.f_Clostridiaceae.g_Clostridium_sensu_stricto_13	0.785662240897			-
+p_Firmicutes.c_Bacilli.o_Lactobacillales.f_Streptococcaceae	5.98125364512	Control	5.63254864475	0.000108908769855
+p_Firmicutes.c_Clostridia.o_Lachnospirales.f_Lachnospiraceae.g_Tyzzerella	2.36555287664			-
+p_Firmicutes.c_Clostridia.o_Peptostreptococcales_Tissierellales.f_Peptostreptococcaceae.g_Paeniclostridium	1.08662323016			-
+p_Actinobacteriota.c_Actinobacteria.o_Actinomycetales.f_Actinomycetaceae.g_Actinomyces	0.956441253085			-
+p_Firmicutes.c_Bacilli.o_Bacillales.f_Bacillaceae.g_Virgibacillus	1.78483484597			-
+p_Bacteroidota.c_Bacteroidia.o_Bacteroidales	1.88895215787			-
+p_Proteobacteria.c_Gammaproteobacteria	5.73164237572	InitialStage	5.41658617141	0.00125508051189
+p_Actinobacteriota.c_Actinobacteria.o_Corynebacteriales.f_Corynebacteriaceae.g_Corynebacterium.s_Corynebacterium_glyciniphilum_AJ_3170	1.09674068799			-
+p_Actinobacteriota.c_Actinobacteria.o_Micrococcales.f_Microbacteriaceae.g_Amnibacterium	1.21768253182			-
+p_Bacteroidota.c_Bacteroidia.o_Bacteroidales.f_Porphyromonadaceae	1.83453971879			-
+p_Patescibacteria.c_Saccharimonadia.o_Saccharimonadales.f_Saccharimonadaceae	1.31602213655			-
+p_Firmicutes.c_Bacilli.o_Paenibacillales.f_Paenibacillaceae.g_Paenibacillus.s_Paenibacillus_sp__THG_YS_2_4	1.09162576785			-
+p_Proteobacteria.c_Gammaproteobacteria.o_Xanthomonadales.f_Xanthomonadaceae	2.04380528828			-
+p_Firmicutes.c_Bacilli.o_Thermoactinomycetales.f_Thermoactinomycetaceae.g_Thermoactinomyces.s_Thermoactinomyces_daqus	0.655411257421			-
+p_Firmicutes.c_Bacilli.o_Lactobacillales.f_Enterococcaceae	4.4348421349			-
+p_Bdellovibrionota.c_Bdellovibrionia.o_Bdellovibrionales	0.973299260023			-
+p_Firmicutes.c_Bacilli.o_Bacillales.f_Planococcaceae.g_Lysinibacillus	2.76981979314			-
+p_Firmicutes.c_Bacilli.o_Lactobacillales.f_Lactobacillaceae.g_Lactobacillus.s_Lactobacillus_sp__CWBI_B_659_E912	1.28290754597			-
+p_Proteobacteria.c_Gammaproteobacteria.o_Enterobacterales.f_Yersiniaceae.g_Serratia.s_Serratia_marcescens	1.62725278025			-
+p_Proteobacteria.c_Gammaproteobacteria.o_Burkholderiales.f_Nitrosomonadaceae.g_Ellin6067	0.871601136006			-
+p_Actinobacteriota.c_Actinobacteria.o_Propionibacteriales	0.944491705569			-
+p_Bacteroidota.c_Bacteroidia.o_Sphingobacteriales	1.44377830491	InitialStage	3.72760762866	0.0488382233745
+p_Proteobacteria.c_Gammaproteobacteria.o_Burkholderiales.f_TRA3_20	1.14458039537			-
+p_Acidobacteriota.c_Vicinamibacteria.o_Vicinamibacterales	0.517174991517			-
+p_Proteobacteria.c_Gammaproteobacteria.o_Enterobacterales.f_Erwiniaceae.g_Pantoea	0.956639738614			-
+p_Actinobacteriota.c_Actinobacteria.o_Pseudonocardiales.f_Pseudonocardiaceae.g_Actinomycetospora.s_Pseudonocardia_sp__CNJ888_PL04	0.812939768923			-
+p_Actinobacteriota.c_Actinobacteria.o_Pseudonocardiales	1.20491366776			-
+p_Firmicutes.c_Bacilli.o_Bacillales.f_Planococcaceae.g_Psychrobacillus	1.39115566321			-
+p_Firmicutes.c_Bacilli.o_Paenibacillales.f_Paenibacillaceae.g_Paenibacillus	3.49320777983			-
+p_Firmicutes.c_Bacilli.o_Lactobacillales.f_Aerococcaceae	1.60861489443			-
+p_Proteobacteria.c_Gammaproteobacteria.o_Enterobacterales.f_Enterobacteriaceae.g_Escherichia_Shigella.s_Escherichia_coli	1.81823968622	EndStage	3.90003530227	0.0117060488781
+p_Proteobacteria.c_Gammaproteobacteria.o_Alteromonadales	0.783472556183			-
+p_Proteobacteria.c_Gammaproteobacteria.o_Pseudomonadales.f_Pseudomonadaceae	3.02547900062	InitialStage	2.80500716337	0.0148805496581
+p_Actinobacteriota.c_Actinobacteria.o_Micrococcales.f_Microbacteriaceae.g_Amnibacterium.s_Amnibacterium_sp_	1.21768253182			-
+p_Firmicutes.c_Bacilli.o_Bacillales.f_Bacillaceae.g_Geobacillus	0.500611253697			-
+p_Firmicutes.c_Bacilli.o_Lactobacillales.f_Aerococcaceae.g_Facklamia	1.26010083199	Control	4.29872217877	0.0436987936463
+p_Actinobacteriota.c_Actinobacteria.o_Propionibacteriales.f_Propionibacteriaceae.g_Tessaracoccus	0.944491705569			-
+p_Proteobacteria.c_Alphaproteobacteria.o_Sphingomonadales	1.81730348178			-
+p_Proteobacteria.c_Gammaproteobacteria.o_Enterobacterales.f_Enterobacteriaceae	5.72941247417	InitialStage	5.41466607639	0.00125508051189
+p_Proteobacteria.c_Gammaproteobacteria.o_Enterobacterales.f_Enterobacteriaceae.g_Citrobacter	1.74424061105			-
+p_Fusobacteriota.c_Fusobacteriia.o_Fusobacteriales.f_Fusobacteriaceae.g_Fusobacterium	0.643461709905			-
+p_Firmicutes.c_Bacilli.o_Thermoactinomycetales.f_Thermoactinomycetaceae.g_Thermoactinomyces	0.655411257421			-
+p_Proteobacteria.c_Alphaproteobacteria.o_Rhizobiales.f_Beijerinckiaceae.g_1174_901_12	1.7741113561			-
+p_Proteobacteria.c_Gammaproteobacteria.o_Pseudomonadales.f_Moraxellaceae.g_Moraxella.s_Moraxella_sp__canine_oral_taxon_017	0.87518829778			-
+p_Firmicutes.c_Bacilli.o_Lactobacillales.f_Leuconostocaceae.g_Leuconostoc	4.50061208325			-
+p_Proteobacteria.c_Alphaproteobacteria.o_Dongiales	0.643461709905			-
+p_Firmicutes.c_Bacilli.o_Lactobacillales.f_Lactobacillaceae.g_Lactobacillus.s_Lactobacillus_gasseri	1.34392850698			-
+p_Bacteroidota.c_Bacteroidia	1.91360454128			-
+p_Acidobacteriota.c_Acidobacteriae.o_Acidobacteriales.f_Acidobacteriaceae_Subgroup_1.g_Terriglobus	0.886905844875			-
+p_Proteobacteria.c_Gammaproteobacteria.o_Burkholderiales.f_Comamonadaceae.g_Acidovorax	1.59818376338			-
+p_Firmicutes.c_Bacilli.o_Lactobacillales.f_Carnobacteriaceae.g_Granulicatella	1.25747124875			-
+p_Proteobacteria.c_Gammaproteobacteria.o_Enterobacterales.f_Enterobacteriaceae.g_Escherichia_Shigella	5.66735833068	InitialStage	5.35155926339	0.00139635656404
+p_Proteobacteria.c_Gammaproteobacteria.o_Burkholderiales.f_Alcaligenaceae.g_Pigmentiphaga	0.958104237874			-
+p_Bdellovibrionota.c_Bdellovibrionia.o_Bdellovibrionales.f_Bdellovibrionaceae.g_Bdellovibrio	0.973299260023			-
+p_Proteobacteria.c_Gammaproteobacteria.o_Burkholderiales.f_Nitrosomonadaceae	1.07337278006			-
+p_Proteobacteria.c_Alphaproteobacteria.o_Rhizobiales.f_Rhizobiaceae.g_Allorhizobium_Neorhizobium_Pararhizobium_Rhizobium	1.99544574127			-
+p_Proteobacteria.c_Alphaproteobacteria.o_Rhizobiales.f_Beijerinckiaceae.g_Methylobacterium_Methylorubrum.s_Methylobacterium_aerolatum	0.973691666739			-
+p_Firmicutes.c_Bacilli.o_Lactobacillales.f_Lactobacillaceae	4.58800833981			-
+p_Planctomycetota.c_Planctomycetes.o_Isosphaerales	0.820499913637			-
+p_Firmicutes.c_Clostridia.o_Lachnospirales.f_Lachnospiraceae.g_Cellulosilyticum	1.08536056654			-
+p_Proteobacteria.c_Alphaproteobacteria.o_Acetobacterales.f_Acetobacteraceae.g_Tanticharoenia.s_Tanticharoenia_sakaeratensis_NBRC_103193	2.59836909632	InitialStage	2.80588709447	0.0225095766151
+p_Firmicutes.c_Bacilli.o_Lactobacillales.f_Streptococcaceae.g_Streptococcus.s_Streptococcus_suis	2.90427547			-
+p_Firmicutes.c_Bacilli.o_Lactobacillales.f_Leuconostocaceae	5.25986616895			-
+p_Campilobacterota.c_Campylobacteria.o_Campylobacterales	2.61065724728	EndStage	2.9130269706	0.00244756562607
+p_Proteobacteria.c_Alphaproteobacteria.o_Rhizobiales.f_Xanthobacteraceae	1.0817378672			-
+p_Firmicutes.c_Clostridia.o_Clostridiales.f_Clostridiaceae.g_Clostridium_sensu_stricto_1.s_Clostridium_beijerinckii	1.18864784772			-
+p_Firmicutes.c_Bacilli.o_Paenibacillales.f_Paenibacillaceae	3.49320777983			-
+p_Firmicutes.c_Clostridia.o_Clostridiales.f_Clostridiaceae.g_Clostridium_sensu_stricto_1.s_Clostridium_sp__ND2	1.6321887639			-
+p_Proteobacteria.c_Gammaproteobacteria.o_Enterobacterales.f_Enterobacteriaceae.g_Klebsiella.s_Klebsiella_pneumoniae	2.47628314721	InitialStage	3.27805048284	0.000247140006112
+p_Proteobacteria.c_Gammaproteobacteria.o_Enterobacterales.f_Enterobacteriaceae.g_Enterobacter	1.88494254199	InitialStage	3.66338649837	0.00703472589847
+p_Proteobacteria.c_Gammaproteobacteria.o_Burkholderiales.f_Burkholderiaceae.g_Burkholderia_Caballeronia_Paraburkholderia	0.820499913637			-
+p_Acidobacteriota.c_Acidobacteriae.o_Acidobacteriales	1.37717139188	EndStage	3.79910309551	0.0225095766151
+p_Firmicutes	5.990244754	Control	5.41682548328	0.00125508051189
+p_Firmicutes.c_Bacilli.o_Paenibacillales	3.49320777983			-
+p_Proteobacteria.c_Alphaproteobacteria.o_Caulobacterales.f_Caulobacteraceae.g_Brevundimonas.s_Brevundimonas_sp_	1.12058296463			-
+p_Acidobacteriota.c_Holophagae	0.672391801034			-
+p_Firmicutes.c_Negativicutes.o_Veillonellales_Selenomonadales.f_Veillonellaceae	1.99304764288			-
+p_Firmicutes.c_Bacilli.o_Staphylococcales.f_Staphylococcaceae.g_Macrococcus	1.39461177897			-
+p_Proteobacteria.c_Gammaproteobacteria.o_Burkholderiales.f_Burkholderiaceae.g_Lautropia.s_Lautropia_sp__canine_oral_taxon_060	1.36230669816			-
+p_Firmicutes.c_Bacilli.o_Lactobacillales.f_Streptococcaceae.g_Lactococcus	4.29460647572	InitialStage	3.95694927173	0.0132595893443
+p_Proteobacteria.c_Gammaproteobacteria.o_Burkholderiales.f_Comamonadaceae	2.11150334375			-
+p_Firmicutes.c_Bacilli.o_Bacillales.f_Bacillaceae.g_Bacillus	2.28332794341			-
+p_Planctomycetota.c_Planctomycetes.o_Isosphaerales.f_Isosphaeraceae.g_Paludisphaera	0.820499913637			-
+p_Actinobacteriota.c_Actinobacteria.o_Micrococcales.f_Microbacteriaceae.g_Leucobacter	1.48685422522			-
+p_Firmicutes.c_Bacilli.o_Bacillales.f_Planococcaceae	2.81062332903			-
+p_Bacteroidota.c_Bacteroidia.o_Bacteroidales.f_Dysgonomonadaceae.g_Proteiniphilum	0.959943837779			-
+p_Firmicutes.c_Bacilli.o_Lactobacillales.f_Lactobacillaceae.g_Pediococcus.s_Pediococcus_acidilactici	1.07893892659			-
+p_Firmicutes.c_Bacilli.o_Lactobacillales.f_Enterococcaceae.g_Enterococcus.s_Enterococcus_sp__LF59	1.52749094868	InitialStage	3.60760691953	0.0225095766151
+p_Actinobacteriota.c_Actinobacteria.o_Micrococcales.f_Dermacoccaceae	0.643461709905			-
+p_Proteobacteria.c_Gammaproteobacteria.o_Pseudomonadales.f_Moraxellaceae.g_Psychrobacter	1.33334535271			-
+p_Firmicutes.c_Bacilli.o_Lactobacillales.f_Lactobacillaceae.g_Lactobacillus.s_Lactobacillus_acetotolerans_DSM_20749_	2.08462001324	InitialStage	3.77576449275	0.03653340828
+p_Firmicutes.c_Bacilli.o_Lactobacillales.f_Streptococcaceae.g_Streptococcus.s_Streptococcus_ferus	1.34243171424			-
+p_Proteobacteria.c_Gammaproteobacteria.o_Enterobacterales.f_Enterobacteriaceae.g_Klebsiella	4.84972714624	InitialStage	4.54186373948	0.000146796764987
+p_Firmicutes.c_Bacilli.o_Paenibacillales.f_Paenibacillaceae.g_Paenibacillus.s_Paenibacillus_taiwanensis	1.32740687551			-
+p_Firmicutes.c_Bacilli.o_Lactobacillales.f_Lactobacillaceae.g_Pediococcus	1.07893892659			-
+p_Firmicutes.c_Bacilli.o_Lactobacillales.f_Lactobacillaceae.g_Lactobacillus.s_Lactobacillus_heilongjiangensis	0.973360532682			-
+p_Planctomycetota.c_Planctomycetes	0.820499913637			-
+p_Fusobacteriota	0.643461709905			-
+p_Proteobacteria.c_Gammaproteobacteria.o_Pseudomonadales.f_Pseudomonadaceae.g_Pseudomonas	3.02547900062	InitialStage	2.80418620704	0.0148805496581
+p_Firmicutes.c_Bacilli.o_Lactobacillales.f_Enterococcaceae.g_Enterococcus.s_Enterococcus_xinjiangensis	0.799714616337			-
+p_Firmicutes.c_Bacilli.o_Lactobacillales.f_Leuconostocaceae.g_Weissella.s_Weissella_hellenica	2.6581161612			-
+p_Proteobacteria.c_Alphaproteobacteria.o_Rhodobacterales.f_Rhodobacteraceae	1.67229377446			-
+p_Firmicutes.c_Bacilli.o_Lactobacillales.f_Streptococcaceae.g_Streptococcus.s_Streptococcus_alactolyticus	5.97575259639	Control	5.67183677439	4.0065297393e-05
+p_Actinobacteriota.c_Actinobacteria.o_Micrococcales.f_Dermabacteraceae.g_Brachybacterium	0.804611105797			-
+p_Firmicutes.c_Bacilli.o_Bacillales.f_Bacillaceae.g_Ornithinibacillus	1.26179299654			-
+p_Proteobacteria.c_Alphaproteobacteria.o_Rhizobiales.f_Xanthobacteraceae.g_Bradyrhizobium	1.0817378672			-
+p_Actinobacteriota.c_Actinobacteria.o_Actinomycetales	1.26036064051			-
+p_Proteobacteria.c_Gammaproteobacteria.o_Burkholderiales.f_Burkholderiaceae.g_Ralstonia.s_Ralstonia_sp__DMSP_S11	0.80057499862			-
+p_Firmicutes.c_Bacilli.o_Lactobacillales.f_Lactobacillaceae.g_Lactobacillus.s_Lactobacillus_buchneri	1.95235598156			-
+p_Proteobacteria.c_Alphaproteobacteria.o_Caulobacterales.f_Caulobacteraceae.g_Brevundimonas	1.12058296463			-
+p_Bacteroidota.c_Bacteroidia.o_Sphingobacteriales.f_Sphingobacteriaceae.g_Sphingobacterium.s_Sphingobacterium_sp_	1.42161296029			-
+p_Bdellovibrionota.c_Bdellovibrionia.o_Bdellovibrionales.f_Bdellovibrionaceae	0.973299260023			-
+p_Proteobacteria.c_Alphaproteobacteria.o_Rhizobiales	2.50880970973			-
+p_Proteobacteria.c_Gammaproteobacteria.o_Pasteurellales	2.55105682555			-
+p_Bacteroidota.c_Bacteroidia.o_Bacteroidales.f_Porphyromonadaceae.g_Porphyromonas	1.83453971879			-
+p_Firmicutes.c_Bacilli.o_Lactobacillales.f_Leuconostocaceae.g_Weissella	5.17680477647			-
+p_Firmicutes.c_Bacilli.o_Staphylococcales.f_Staphylococcaceae.g_Macrococcus.s_Macrococcus_lamae	0.797577317315			-
+p_Bdellovibrionota.c_Bdellovibrionia.o_Bdellovibrionales.f_Bdellovibrionaceae.g_Bdellovibrio.s_Bdellovibrio_bacteriovorus	0.973299260023			-
+p_Proteobacteria.c_Gammaproteobacteria.o_Burkholderiales.f_Burkholderiaceae.g_Lautropia	1.55907973642			-
+p_Proteobacteria.c_Alphaproteobacteria.o_Rhizobiales.f_Beijerinckiaceae	2.28798065982	EndStage	3.14011248664	0.012265194014
+p_Proteobacteria.c_Gammaproteobacteria.o_Burkholderiales.f_Burkholderiaceae	1.6319051676			-
+p_Firmicutes.c_Bacilli.o_Lactobacillales.f_Streptococcaceae.g_Streptococcus.s_Streptococcus_sp__NUM_1428	2.13776052709			-
+p_Proteobacteria.c_Gammaproteobacteria.o_Acidiferrobacterales	0.672391801034			-
+p_Actinobacteriota.c_Actinobacteria.o_Micrococcales.f_Micrococcaceae.g_Kocuria.s_Kocuria_palustris	0.944491705569			-
+p_Firmicutes.c_Clostridia.o_Peptostreptococcales_Tissierellales.g_Helcococcus	1.26684331483	Control	4.16008514522	0.00742701256165
+p_Actinobacteriota.c_Actinobacteria.o_Pseudonocardiales.f_Pseudonocardiaceae.g_Actinomycetospora	0.812939768923			-
+p_Campilobacterota	2.61065724728	EndStage	2.91306142576	0.00244756562607
+p_Patescibacteria.c_Saccharimonadia.o_Saccharimonadales	1.31602213655			-
+p_Firmicutes.c_Clostridia.o_Clostridia_UCG_014	0.655411257421			-
+p_Firmicutes.c_Bacilli.o_Lactobacillales.f_Enterococcaceae.g_Enterococcus.s_Enterococcus_faecium	1.48564703569			-
+p_Proteobacteria.c_Gammaproteobacteria.o_Enterobacterales.f_Enterobacteriaceae.g_Kosakonia	0.812596328838			-
+p_Bacteroidota.c_Bacteroidia.o_Sphingobacteriales.f_Sphingobacteriaceae.g_Sphingobacterium	1.42161296029			-
+p_Actinobacteriota.c_Actinobacteria.o_Micrococcales.f_Microbacteriaceae.g_Microbacterium	1.88474474591			-
+p_Proteobacteria.c_Alphaproteobacteria.o_Rhizobiales.f_Labraceae	0.944491705569			-
+p_Acidobacteriota.c_Holophagae.o_Subgroup_7	0.672391801034			-
+p_Firmicutes.c_Bacilli.o_Erysipelotrichales.f_Erysipelotrichaceae	3.95908037492			-
+p_Firmicutes.c_Bacilli.o_Thermoactinomycetales.f_Thermoactinomycetaceae.g_Kroppenstedtia.s_Kroppenstedtia_eburnea	1.71016030625			-
+p_Bdellovibrionota	0.973299260023			-
+p_Proteobacteria.c_Alphaproteobacteria.o_Dongiales.f_Dongiaceae.g_Dongia	0.643461709905			-
+p_Bacteroidota.c_Bacteroidia.o_Bacteroidales.f_Dysgonomonadaceae	0.959943837779			-
+p_Firmicutes.c_Bacilli.o_Lactobacillales.f_Lactobacillaceae.g_Lactobacillus.s_Lactobacillus_acidipiscis	1.13837819961			-
+p_Firmicutes.c_Clostridia.o_Peptostreptococcales_Tissierellales	4.09570807553	EndStage	3.80872829128	0.00447661146177
+p_Bacteroidota.c_Bacteroidia.o_Flavobacteriales.f_Flavobacteriaceae	0.655411257421			-
+p_Proteobacteria.c_Alphaproteobacteria.o_Rhizobiales.f_Beijerinckiaceae.g_Methylobacterium_Methylorubrum.s_Methylobacterium_aquaticum	1.07893892659			-
+p_Actinobacteriota.c_Actinobacteria.o_Propionibacteriales.f_Propionibacteriaceae	0.944491705569			-
+p_Proteobacteria.c_Alphaproteobacteria.o_Rhizobiales.f_Rhizobiaceae.g_Allorhizobium_Neorhizobium_Pararhizobium_Rhizobium.s_Rhizobium_tropici	1.93906480753			-
+p_Bacteroidota	1.91360454128			-
+p_Proteobacteria.c_Alphaproteobacteria.o_Rhodobacterales.f_Rhodobacteraceae.g_Paracoccus	1.67229377446			-
+p_Firmicutes.c_Bacilli.o_Lactobacillales.f_Enterococcaceae.g_Enterococcus	4.4348421349			-
+p_Bacteroidota.c_Bacteroidia.o_Flavobacteriales.f_Weeksellaceae.g_Chryseobacterium	1.27006570368			-
+p_Firmicutes.c_Clostridia.o_Lachnospirales.f_Lachnospiraceae	2.36555287664			-
+p_Firmicutes.c_Bacilli.o_Lactobacillales.f_Streptococcaceae.g_Lactococcus.s_Lactococcus_lactis	4.29138005848	InitialStage	3.95348578204	0.0269870409031
+p_Firmicutes.c_Bacilli.o_Lactobacillales.f_Carnobacteriaceae	1.25747124875			-
+p_Actinobacteriota.c_Actinobacteria	2.4528857345	InitialStage	2.91579113589	0.0285269910154
+p_Firmicutes.c_Bacilli.o_Lactobacillales.f_Lactobacillaceae.g_Lactobacillus.s_Lactobacillus_reuteri	1.57523047566			-
+p_Firmicutes.c_Clostridia.o_Clostridiales.f_Clostridiaceae	5.12948801751	EndStage	4.7791465265	0.028804541243
+p_Patescibacteria.c_Saccharimonadia.o_Saccharimonadales.f_Saccharimonadaceae.g_TM7x	1.31602213655			-
+p_Actinobacteriota.c_Actinobacteria.o_Actinomycetales.f_Actinomycetaceae.g_Trueperella	1.0213862258			-
+p_Proteobacteria.c_Gammaproteobacteria.o_Pseudomonadales.f_Moraxellaceae.g_Moraxella	1.07563036891			-
+p_Actinobacteriota.c_Actinobacteria.o_Micrococcales.f_Microbacteriaceae	2.03088692159			-
+p_Proteobacteria.c_Gammaproteobacteria.o_Burkholderiales.f_Neisseriaceae.g_Neisseria	1.89600769422			-
+p_Proteobacteria.c_Gammaproteobacteria.o_Acidiferrobacterales.f_Acidiferrobacteraceae	0.672391801034			-
+p_Firmicutes.c_Bacilli.o_Staphylococcales.f_Staphylococcaceae.g_Staphylococcus	1.38946336798			-
+p_Firmicutes.c_Clostridia.o_Clostridiales.f_Clostridiaceae.g_Clostridium_sensu_stricto_1.s_Clostridium_disporicum	5.12713529041	EndStage	4.777835258	0.0305347808639
+p_Proteobacteria.c_Alphaproteobacteria.o_Rhizobiales.f_Rhizobiaceae	2.03244551392			-
+p_Proteobacteria.c_Gammaproteobacteria.o_Burkholderiales.f_Alcaligenaceae.g_Verticiella	1.48191150463			-
+p_Firmicutes.c_Bacilli.o_Staphylococcales	1.69307519817			-
+p_Firmicutes.c_Bacilli.o_Lactobacillales.f_Streptococcaceae.g_Streptococcus.s_Streptococcus_orisratti_DSM_15617	1.75144685896			-
+p_Firmicutes.c_Bacilli.o_Lactobacillales.f_Leuconostocaceae.g_Weissella.s_Weissella_cibaria	0.796726268357			-
+p_Proteobacteria.c_Gammaproteobacteria.o_B2M28	1.52863447104			-
+p_Proteobacteria.c_Gammaproteobacteria.o_Pseudomonadales	3.2869617803			-
+p_Proteobacteria.c_Alphaproteobacteria.o_Caulobacterales	1.12058296463			-
+p_Actinobacteriota.c_Acidimicrobiia.o_IMCC26256	0.514636375148			-
+p_NB1_j	0.944491705569			-
+p_Bacteroidota.c_Bacteroidia.o_Flavobacteriales	1.27006570368			-
+p_Proteobacteria.c_Gammaproteobacteria.o_Pseudomonadales.f_Pseudomonadaceae.g_Pseudomonas.s_Teleogryllus_commodus	1.21191857126			-
+p_Firmicutes.c_Bacilli.o_Lactobacillales.f_Lactobacillaceae.g_Lactobacillus.s_Lactobacillus_coleohominis	0.880425686216			-
+p_Firmicutes.c_Bacilli.o_Bacillales.f_Sporolactobacillaceae.g_Scopulibacillus	1.70691522764			-
+p_Proteobacteria.c_Alphaproteobacteria.o_Sphingomonadales.f_Sphingomonadaceae.g_Ellin6055.s_Sphingomonas_sp_	0.643461709905			-
+p_Proteobacteria.c_Gammaproteobacteria.o_Pseudomonadales.f_Moraxellaceae.g_Acinetobacter	2.92689397416			-
+p_Fusobacteriota.c_Fusobacteriia.o_Fusobacteriales	0.643461709905			-
+p_Bacteroidota.c_Bacteroidia.o_Bacteroidales.f_Dysgonomonadaceae.g_Proteiniphilum.s_Petrimonas_sp__B_17	0.959943837779			-
+p_Planctomycetota.c_Planctomycetes.o_Isosphaerales.f_Isosphaeraceae	0.820499913637			-
+p_Proteobacteria.c_Alphaproteobacteria.o_Rhodobacterales	1.67229377446			-
+p_Actinobacteriota.c_Actinobacteria.o_Corynebacteriales	1.27077796517			-
+p_Proteobacteria.c_Alphaproteobacteria.o_Rhizobiales.f_Labraceae.g_Labrys	0.944491705569			-
+p_Firmicutes.c_Bacilli.o_Bacillales.f_Bacillaceae.g_Bacillus.s_Bacillus_licheniformis	1.53324687594			-
+p_Proteobacteria.c_Gammaproteobacteria.o_Burkholderiales.f_Comamonadaceae.g_Comamonas.s_Comamonas_aquatica	1.97596630277			-
+p_Campilobacterota.c_Campylobacteria.o_Campylobacterales.f_Campylobacteraceae.g_Campylobacter	2.61065724728	EndStage	2.91303798689	0.00244756562607
+p_Firmicutes.c_Bacilli.o_Erysipelotrichales.f_Erysipelotrichaceae.g_Turicibacter	3.95908037492			-
+p_Actinobacteriota.c_Actinobacteria.o_Micrococcales.f_Micrococcaceae.g_Rothia	1.49096692268			-
+p_Campilobacterota.c_Campylobacteria	2.61065724728	EndStage	2.91302874749	0.00244756562607
+p_Proteobacteria.c_Alphaproteobacteria.o_Acetobacterales	2.61456205804	InitialStage	2.6869883968	0.0362851257055
+p_Firmicutes.c_Bacilli.o_Staphylococcales.f_Staphylococcaceae	1.69307519817			-
+p_Bacteroidota.c_Bacteroidia.o_Bacteroidales.f_Porphyromonadaceae.g_Porphyromonas.s_Porphyromonas_bennonis	0.944491705569			-
+p_Firmicutes.c_Clostridia.o_Peptostreptococcales_Tissierellales.g_Helcococcus.s_Helcococcus_sueciensis	1.26684331483	Control	4.30398665654	0.00742701256165
+p_Proteobacteria.c_Gammaproteobacteria.o_Xanthomonadales	2.04380528828			-
+p_Proteobacteria.c_Alphaproteobacteria.o_Acetobacterales.f_Acetobacteraceae.g_Acetobacter.s_Acetobacter_pasteurianus	0.956858435193			-
+p_Proteobacteria.c_Alphaproteobacteria.o_Acetobacterales.f_Acetobacteraceae.g_Tanticharoenia	2.59836909632	InitialStage	2.80478733417	0.0225095766151
+p_Firmicutes.c_Bacilli.o_Bacillales.f_Bacillaceae.g_Bacillus.s_Bacillus_fortis	0.519469917973			-
+p_Fusobacteriota.c_Fusobacteriia.o_Fusobacteriales.f_Fusobacteriaceae	0.643461709905			-
+p_Firmicutes.c_Negativicutes.o_Veillonellales_Selenomonadales	1.99304764288			-
+p_Firmicutes.c_Clostridia.o_Peptostreptococcales_Tissierellales.f_Peptostreptococcaceae.g_Terrisporobacter.s_Terrisporobacter_glycolicus	0.484632245233			-
+p_Proteobacteria.c_Gammaproteobacteria.o_Enterobacterales.f_Enterobacteriaceae.g_Salmonella	1.329765416			-
+p_Firmicutes.c_Bacilli.o_Thermoactinomycetales	2.40941389511			-
+p_Campilobacterota.c_Campylobacteria.o_Campylobacterales.f_Campylobacteraceae	2.61065724728	EndStage	2.91299934104	0.00244756562607
+p_Firmicutes.c_Bacilli.o_Erysipelotrichales	3.95908037492			-
+p_Proteobacteria.c_Gammaproteobacteria.o_Xanthomonadales.f_Xanthomonadaceae.g_Stenotrophomonas	1.88521188148			-
+p_Firmicutes.c_Bacilli.o_Thermoactinomycetales.f_Thermoactinomycetaceae.g_Kroppenstedtia	2.31841776469			-
+p_Actinobacteriota.c_Actinobacteria.o_Actinomycetales.f_Actinomycetaceae	1.26036064051			-
+p_Proteobacteria.c_Gammaproteobacteria.o_Enterobacterales.f_Yersiniaceae.g_Rahnella1	0.643461709905			-
+p_Firmicutes.c_Clostridia.o_Peptostreptococcales_Tissierellales.f_Peptostreptococcaceae.g_Terrisporobacter	4.0910029097	EndStage	3.80541062874	0.0106437993421
+p_Bacteroidota.c_Bacteroidia.o_Flavobacteriales.f_Weeksellaceae	1.27006570368			-
+p_Bacteroidota.c_Bacteroidia.o_Sphingobacteriales.f_Sphingobacteriaceae.g_Pedobacter	0.789519372232			-
+p_Fusobacteriota.c_Fusobacteriia	0.643461709905			-
+p_Proteobacteria.c_Gammaproteobacteria.o_Enterobacterales.f_Erwiniaceae	1.17966048245			-
+p_Firmicutes.c_Bacilli.o_Lactobacillales.f_Leuconostocaceae.g_Leuconostoc.s_Leuconostoc_lactis	4.50061208325			-
+p_Acidobacteriota	1.48191527288			-
+p_Planctomycetota.c_Planctomycetes.o_Isosphaerales.f_Isosphaeraceae.g_Paludisphaera.s_Isosphaera_like_str__CJuql1	0.820499913637			-
+p_Proteobacteria.c_Alphaproteobacteria.o_Sphingomonadales.f_Sphingomonadaceae	1.81730348178			-
+p_Bacteroidota.c_Bacteroidia.o_Flavobacteriales.f_Flavobacteriaceae.g_Flavobacterium	0.655411257421			-
+p_Proteobacteria.c_Alphaproteobacteria.o_Rhizobiales.f_Beijerinckiaceae.g_Methylobacterium_Methylorubrum	1.94206682472			-
+p_Proteobacteria.c_Gammaproteobacteria.o_Enterobacterales.f_Morganellaceae	0.965726943893			-
