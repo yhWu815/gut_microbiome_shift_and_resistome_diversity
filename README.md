@@ -86,13 +86,15 @@ dependencies:
 
 - **lefse_results.txt.xls**: lefse analysis result produced by [Magigene Cloud Platform](http://cloud.magigene.com/).
 
-## Python scripts and jupyter notebook files
+## Scripts and jupyter notebook files
 
 - **data_analysis_visualization.ipynb**: Script for Relative Abundance, Microbial Diversity analysis and Data visualization.
 
 - **SpeciesAbundance.py**: Script for calculating the species abundance for given otu table at given genus
 
 - **BetaDiversity.py**: Script for calculating the distance matrix and PCoA analysis.
+
+- **args_oap.sh**: Shell script for ARGs analysis.
 
 ## Conda Environment Configuration file
 
