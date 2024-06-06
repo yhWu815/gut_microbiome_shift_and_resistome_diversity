@@ -1,4 +1,4 @@
-# Data and Code
+# Data, Code and Figures
 
 ## Operating System Requirement
 
@@ -97,3 +97,9 @@ dependencies:
 ## Conda Environment Configuration file
 
 - **analysis_16s.yml**: conda environment config file with all necessary packages.
+
+## Figures
+
+- **LDA.plot**: LDA bar plot produced by [Magigene Cloud Platform](http://cloud.magigene.com/).
+
+- **lefse_cladogram_plot.pdf**: LEfSe cladogram plot produced by [Magigene Cloud Platform](http://cloud.magigene.com/).
