@@ -90,7 +90,9 @@ class CustomPCOA:
         # the squareroot of the variance and multiplying
         # with the given number of standard deviations.
         scale_x = np.sqrt(cov[0,0]) * n_std
-        scale_y = np.sqrt(cov[1,1] * n_std)
+        #scale_y = np.sqrt(cov[1,1] * n_std) there's a mitake
+        #FIXME: the correct way to calculate the scale_y
+        scale_y = np.sqrt(cov[1,1]) * n_std
 
         transf = transforms.Affine2D() \
             .rotate_deg(45) \
