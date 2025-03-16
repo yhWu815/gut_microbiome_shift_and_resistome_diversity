@@ -1,0 +1,25 @@
+﻿SampleID,Panda,Group1,Group2,Collection date
+S1.1st,Mother,S1,Init,X
+S1.2nd,Mother,S1,Init,X
+S1.3rd,Mother,S1,Init,X
+S2.1st,Child,S2,Init,X
+S2.2nd,Child,S2,Init,X
+S2.3rd,Child,S2,Init,X
+S3.1st,Father,S3,Init,X
+S3.2nd,Father,S3,Init,X
+S3.3rd,Father,S3,Init,X
+E1.1st,Mother,E1,End,X+31d
+E1.2nd,Mother,E1,End,X+32d
+E1.3rd,Mother,E1,End,X+33d
+E2.1st,Child,E2,End,X+31d
+E2.2nd,Child,E2,End,X+32d
+E2.3rd,Child,E2,End,X+33d
+E3.1st,Father,E3,End,X+31d
+E3.2nd,Father,E3,End,X+32d
+E3.3rd,Father,E3,End,X+33d
+E4.1st,Control,E4,C,X+33d
+E4.2nd,Control,E4,C,X+33d
+E4.3rd,Control,E4,C,X+33d
+E5.1st,Control,E5,C,X+33d
+E5.2nd,Control,E5,C,X+33d
+E5.3rd,Control,E5,C,X+33d
