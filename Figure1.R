@@ -1,8 +1,8 @@
+library(Biostrings)
 library(tidyverse)
 library(ggplot2)
-library(phyloseq)
 library(readxl)
-library(Biostrings)
+library(phyloseq)
 library(vegan)
 library(reshape2)
 library(ggpubr)
@@ -46,7 +46,7 @@ physeq <- phyloseq(otu_table_phy, tax_table_phy,
 
 # create a directory to store subplots & table
 save_plot_dir <- "r-subplots"
-if (!dir.exists(save_dir)) {
+if (!dir.exists(save_plot_dir)) {
   dir.create(save_Plot_dir)
 }
 save_data_dir <- "r-data"
@@ -137,7 +137,7 @@ shannon_group2 <- ggplot(data = alpha_div_meta, aes(x = Group2, y = Shannon, fil
   stat_compare_means(method="kruskal.test", label = "p.format", label.x.npc = 0.1, label.y.npc = 0.95) +
   scale_fill_manual(values = group2_colors) +
   labs(x = "Group", y = "Shannon Index") +
-  theme_minimal() +
+  theme_classic2() +
   theme(axis.ticks.x = element_blank(), axis.text.x = element_blank())
 print(shannon_group2) #significant, fig1
 ggsave(filename = "./r-subplots/shannon_group2.svg", plot = shannon_group2, dpi = 1200)
@@ -156,7 +156,7 @@ bray_Group2_pcoa <- plot_ordination(rarefied_ps, pcoa_bray,
   stat_ellipse(type = "t", level = 0.95) +
   annotate("text", x = 0.3, y = 1,
            label = paste("R2 =", adonis_bray_Group2_r2_value, "p =", adonis_bray_Group2_p_value)) +
-  theme_minimal()
+  theme_classic2()
 print(bray_Group2_pcoa)
 ggsave(filename = "./r-subplots/bray_Group2_pcoa.svg", plot = bray_Group2_pcoa, dpi = 1200)
 ggsave(filename = "./r-subplots/bray_Group2_pcoa.pdf", plot = bray_Group2_pcoa, dpi = 1200)
@@ -233,6 +233,8 @@ names(species_color_plate) <- c(top_genera, "Others")
 # plot stacked bar plot
 genus_plot <- ggplot(genus_abundance, aes(x = Group1, y = Percentage, fill = Genus)) +
   geom_bar(stat = "identity", position = "stack") +
+  coord_flip() +
+  scale_y_continuous(expand = c(0.01, 0)) +
   scale_fill_manual(values = species_color_plate) +
   labs(x = "Group1", y = "Relative Abundance (%)", fill = "Genus") +
   theme_minimal() +
@@ -247,6 +249,58 @@ genus_abundance_wide <- genus_abundance %>%
   pivot_wider(names_from = Genus, values_from = Percentage, values_fill = list(Percentage = 0))
 library(writexl)
 write_xlsx(genus_abundance_wide, "./r-data/top10_other_abundance.xlsx")
+## plot the stacked bar plot for the 24 samples
+asv_df$Group1 <- factor(asv_df$Group1, 
+                        levels = c("S1", "S2", "S3", "E1", "E2", "E3", "E4", "E5"))
+all_genus_abundance <- asv_df %>%
+  group_by(Sample, Group1, Genus) %>%
+  summarise(Abundance = sum(Abundance), .groups = "drop") %>%
+  group_by(Sample) %>%
+  mutate(Percentage = Abundance / sum(Abundance) * 100)
+top_10_genera <- all_genus_abundance %>%
+  group_by(Genus) %>%
+  summarise(TotalAbundance = sum(Percentage)) %>%
+  arrange(desc(TotalAbundance)) %>%
+  slice_head(n = 10) %>%
+  pull(Genus)
+all_genus_abundance <- all_genus_abundance %>%
+  mutate(Genus = ifelse(Genus %in% top_10_genera, Genus, "Others"))
+all_genus_abundance <- all_genus_abundance %>%
+  group_by(Sample, Group1, Genus) %>%
+  summarise(Percentage = sum(Percentage), .groups = "drop")
+all_genus_abundance <- all_genus_abundance %>%
+  arrange(Group1, Sample)
+order = c("S1.1st", "S1.2nd", "S1.3rd",
+          "S2.1st", "S2.2nd", "S2.3rd",
+          "S3.1st", "S3.2nd", "S3.3rd",
+          "E1.1st", "E1.2nd", "E1.3rd",
+          "E2.1st", "E2.2nd", "E2.3rd",
+          "E3.1st", "E3.2nd", "E3.3rd",
+          "E4.1st", "E4.2nd", "E4.3rd",
+          "E5.1st", "E5.2nd", "E5.3rd")
+new_all_genus_abundance <- all_genus_abundance %>%
+  mutate(newSample = factor(Sample, levels = order))
+all_sample_genus_plot <- ggplot(new_all_genus_abundance, aes(x = newSample, y = Percentage, fill = Genus)) +
+    geom_bar(stat = "identity", position = "stack") +
+    scale_fill_manual(values = species_color_plate) +
+    labs(x = "Sample", y = "Relative Abundance (%)", fill = "Genus") +
+    scale_y_continuous(expand = c(0.01, 0)) +
+    theme_classic() +
+    theme(
+      strip.background =  element_blank(),
+      strip.placement = "outside",
+      axis.text.x = element_blank(),
+      axis.ticks.x = element_blank(),
+      legend.position = "bottom",
+      legend.title = element_text(size = 12, face = "bold"),
+      panel.spacing = unit(0.01, "lines"),
+      panel.grid.major = element_blank(),
+      panel.grid.minor = element_blank(),
+      panel.background = element_blank()) +
+      facet_grid(~ Group1, scales = "free", switch = "both")
+print(all_sample_genus_plot)
+ggsave(filename = "./r-subplots/all_sample_genus_plot.svg", plot = all_sample_genus_plot, dpi = 1200)
+ggsave(filename = "./r-subplots/all_sample_genus_plot.pdf", plot = all_sample_genus_plot, dpi = 1200)
 # Step.7 ARG heatmap
 arg_types = read.csv(file = "./original_data/rpkm.type.txt", sep="\t")
 #rename macrolide-lincosamide-streptogramin as mls
@@ -275,3 +329,4 @@ arg_type_heatmap_row <- pheatmap(arg_type_matrix, scale = "row",
 )
 ggsave(filename = "./r-subplots/arg_type_heatmap_row.svg", plot = as.ggplot(arg_type_heatmap_column), dpi = 1200)
 ggsave(filename = "./r-subplots/arg_type_heatmap_row.pdf", plot = as.ggplot(arg_type_heatmap_column), dpi = 1200)
+
