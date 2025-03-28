@@ -299,8 +299,8 @@ all_sample_genus_plot <- ggplot(new_all_genus_abundance, aes(x = newSample, y = 
       panel.background = element_blank()) +
       facet_grid(~ Group1, scales = "free", switch = "both")
 print(all_sample_genus_plot)
-ggsave(filename = "./r-subplots/all_sample_genus_plot.svg", plot = all_sample_genus_plot, dpi = 1200)
-ggsave(filename = "./r-subplots/all_sample_genus_plot.pdf", plot = all_sample_genus_plot, dpi = 1200)
+ggsave(filename = "./r-subplots/all_sample_genus_plot.svg", plot = all_sample_genus_plot, dpi = 1200, width = 10)
+ggsave(filename = "./r-subplots/all_sample_genus_plot.pdf", plot = all_sample_genus_plot, dpi = 1200, width = 10)
 # Step.7 ARG heatmap
 arg_types = read.csv(file = "./original_data/rpkm.type.txt", sep="\t")
 #rename macrolide-lincosamide-streptogramin as mls
@@ -311,7 +311,7 @@ new_col_names <- c("type", "C", "S1", "S3", "S2")
 colnames(arg_types) <- new_col_names
 rownames(arg_types) <- arg_types$type
 arg_type_matrix <- as.matrix(arg_types[, -1])
-arg_type_heatmap_column <- pheatmap(arg_type_matrix, scale = "column",
+arg_type_heatmap_column <- pheatmap(arg_type_matrix, scale = "none",
          cluster_rows = FALSE, cluster_cols = FALSE,
          cellwidth = 10, cellheight = 10,
          color = colorRampPalette(c( "#2E86C1", "white", "#F4B400"))(100),
@@ -321,12 +321,12 @@ ggsave(filename = "./r-subplots/arg_type_heatmap_column.svg", plot = as.ggplot(a
        dpi = 1200)
 ggsave(filename = "./r-subplots/arg_type_heatmap_column.pdf", plot = as.ggplot(arg_type_heatmap_column), 
        dpi = 1200)
-arg_type_heatmap_row <- pheatmap(arg_type_matrix, scale = "row",
+arg_type_heatmap_row <- pheatmap(arg_type_matrix, scale = "none",
          cluster_rows = FALSE, cluster_cols = FALSE,
          cellwidth = 10, cellheight = 10,
          color = colorRampPalette(c( "#2E86C1", "white", "#F4B400"))(100),
          display_numbers = FALSE
 )
-ggsave(filename = "./r-subplots/arg_type_heatmap_row.svg", plot = as.ggplot(arg_type_heatmap_column), dpi = 1200)
-ggsave(filename = "./r-subplots/arg_type_heatmap_row.pdf", plot = as.ggplot(arg_type_heatmap_column), dpi = 1200)
+ggsave(filename = "./r-subplots/arg_type_heatmap_row.svg", plot = as.ggplot(arg_type_heatmap_row), dpi = 1200)
+ggsave(filename = "./r-subplots/arg_type_heatmap_row.pdf", plot = as.ggplot(arg_type_heatmap_row), dpi = 1200)
 
