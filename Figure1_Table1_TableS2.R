@@ -58,6 +58,7 @@ set.seed(1234)
 rarefied_ps <- rarefy_even_depth(physeq, replace = TRUE)
 
 # Step 3: Compute Alpha Diversity
+# phyloseq::estimate_richness, summarize alpha diversity
 alpha_div <- estimate_richness(rarefied_ps, measures = NULL)
 # Merge alpha diversity with metadata
 metadata <- sample_data(rarefied_ps) %>% as_tibble(rownames = "SampleID")
@@ -143,10 +144,13 @@ print(shannon_group2) #significant, fig1
 ggsave(filename = "./r-subplots/shannon_group2.svg", plot = shannon_group2, dpi = 1200)
 ggsave(filename = "./r-subplots/shannon_group2.pdf", plot = shannon_group2, dpi = 1200)
 # Step5. Compute Beta Diversity
+# phyloseq::distance, calculate distance, dissimilarity
 bray_dist <- distance(rarefied_ps, method = "bray")
 #PCoA analysis
+# phyloseq::ordinate, perform an ordination on phyloseq data
 pcoa_bray <- ordinate(rarefied_ps, method = "PCoA", distance = bray_dist)
 ##bray curtis ~ Group2
+# vegan::adonis
 adonis_bray_Group2 <- adonis2(bray_dist ~ Group2, data = metadata)
 adonis_bray_Group2_r2_value <- round(adonis_bray_Group2$R2[1], 3)
 adonis_bray_Group2_p_value  <- round(adonis_bray_Group2$`Pr(>F)`[1], 3)
@@ -160,41 +164,39 @@ bray_Group2_pcoa <- plot_ordination(rarefied_ps, pcoa_bray,
 print(bray_Group2_pcoa)
 ggsave(filename = "./r-subplots/bray_Group2_pcoa.svg", plot = bray_Group2_pcoa, dpi = 1200)
 ggsave(filename = "./r-subplots/bray_Group2_pcoa.pdf", plot = bray_Group2_pcoa, dpi = 1200)
+
 ## heatmap
 bray_matrix <- as.matrix(bray_dist)
 heatmap_metadata <- data.frame(sample_data(rarefied_ps))
 heatmap_metadata$SampleID <- rownames(heatmap_metadata)  # 确保行名为样本名
 group_map <- heatmap_metadata %>% select(SampleID, Group1)
 #compute average distance of each group1 variable
-bray_group_matrix <- bray_matrix %>%
-  as.data.frame() %>%
-  rownames_to_column("Sample1") %>%
-  gather(key = "Sample2", value = "Distance", -Sample1) %>%
-  left_join(group_map, by = c("Sample1" = "SampleID")) %>%
-  rename(Group1_Sample1 = Group1) %>%
-  left_join(group_map, by = c("Sample2" = "SampleID")) %>%
-  rename(Group1_Sample2 = Group1) %>%
-  group_by(Group1_Sample1, Group1_Sample2) %>%
-  summarise(Average_Distance = mean(Distance)) %>%
-  spread(key = Group1_Sample2, value = Average_Distance)
-#convert it to matrix
-bray_group_matrix <- column_to_rownames(bray_group_matrix, var = "Group1_Sample1")
-bray_group_matrix <- as.matrix(bray_group_matrix)
+beta_gourp1_ps <- rarefied_ps
+beta_gourp1_ps <- merge_samples(beta_gourp1_ps, "Group1")
+group1_bray_dist <- distance(beta_gourp1_ps, method = "bray")
+bray_group_matrix <- as.matrix(group1_bray_dist) 
 #plot group1 level heatmap
-bray_group_heatmap <- pheatmap(bray_group_matrix, 
-         clustering_distance_rows = "euclidean",
-         clustering_distance_cols = "euclidean",
-         clustering_method = "complete",
+bray_group_heatmap <- pheatmap(bray_group_matrix,
+         clustering_method = "average", # average: hclust, UPGMA
          color = colorRampPalette(c("#9BBBE1", "white", "#F09BA0"))(50),
          display_numbers = FALSE)
 gg_bray_group_heatmap <- as.ggplot(bray_group_heatmap)
-ggsave(filename = "./r-subplots/bray_group_heatmap.svg", plot = gg_bray_group_heatmap, dpi = 1200)
-ggsave(filename = "./r-subplots/bray_group_heatmap.pdf", plot = gg_bray_group_heatmap, dpi = 1200)
+print(gg_bray_group_heatmap)
+ggsave(filename = "./r-subplots/bray_group_heatmap_upgma.svg", plot = gg_bray_group_heatmap, dpi = 1200)
+ggsave(filename = "./r-subplots/bray_group_heatmap_upgma.pdf", plot = gg_bray_group_heatmap, dpi = 1200)
 # Step 6. Species Stacked Bar Plot
 tax_level <- "Genus"
 ps_rel <- transform_sample_counts(rarefied_ps, function(x) x / sum(x))
+# validate
+rarefied_otu_table <- as.data.frame(rarefied_ps@otu_table)
+sum_table <- rarefied_otu_table %>% 
+  summarise(across(everything(), sum, na.rm = T))
+# sum of otus for each samples = 25252
 # ASV to dataframe
 asv_df <- psmelt(ps_rel)
+sum_asv_df <- asv_df %>% 
+  group_by(Sample) %>% 
+  summarise(Total_Abundance = sum(Abundance, na.rm = T), .groups = "drop") # 1
 # extract metadata and rearrange as Group1
 species_metadata <- data.frame(sample_data(rarefied_ps))
 species_metadata$SampleID <- rownames(species_metadata)
@@ -205,6 +207,10 @@ species_metadata$Group1 <- factor(species_metadata$Group1, levels = c("S1", "S2"
 genus_abundance <- asv_df %>%
   group_by(Group1, Genus) %>%
   summarise(Abundance = sum(Abundance), .groups = "drop")
+
+sum_genus_abundance <- genus_abundance %>% 
+  group_by(Group1) %>% 
+  summarise(Total_abundance = sum(Abundance, na.rm = T), .groups = "drop") # 3
 
 # top 10 genus
 top_genera <- genus_abundance %>%
@@ -330,3 +336,59 @@ arg_type_heatmap_row <- pheatmap(arg_type_matrix, scale = "none",
 ggsave(filename = "./r-subplots/arg_type_heatmap_row.svg", plot = as.ggplot(arg_type_heatmap_row), dpi = 1200)
 ggsave(filename = "./r-subplots/arg_type_heatmap_row.pdf", plot = as.ggplot(arg_type_heatmap_row), dpi = 1200)
 
+# table1 data
+s_data <- data.frame(sample_data(rarefied_ps))
+# replace E4&E5 with C
+s_data$Group1 <- ifelse(s_data$Group1 %in% c("E4", "E5"), "C", as.character(s_data$Group1))
+# reassign the modified s_data to rarefied_ps
+table1_ps <- rarefied_ps
+sample_data(table1_ps) <- sample_data(s_data)
+table1_ps_merged <- merge_samples(table1_ps, "Group1")
+table1_ps_rel <- transform_sample_counts(table1_ps_merged, function(x) x / sum(x))
+#convert asv to dataframe
+table1_asv <- psmelt(table1_ps_rel)
+#replace genera as others if it isn't the top_10_genera
+table1_asv_genus <- psmelt(table1_ps_rel) %>%
+  select(c("Sample", "Abundance", "Genus")) %>%
+  mutate(Genus = if_else(Genus %in% top_10_genera,
+                         as.character(Genus),
+                         "others")) %>%
+  group_by(Sample, Genus) %>%
+  summarise(Abundance = sum(Abundance), .groups = "drop") %>% #removes the grouping attribute from the resulting dataframe
+  arrange(Sample)
+#validate
+table1_asv_genus %>% 
+  group_by(Sample) %>% 
+  summarise(Check_Sum = sum(Abundance))
+#transform to a wide table
+custom_order <- c("S1", "S2", "S3", "E1", "E2", "E3", "C")
+table1_wide <- table1_asv_genus %>%
+  mutate(Sample = factor(Sample, levels = custom_order)) %>%
+  arrange(Sample) %>%
+  pivot_wider(
+    names_from = Genus,
+    values_from = Abundance,
+    values_fill = 0
+  ) %>% 
+  select(Sample, "Streptococcus", "Escherichia-Shigella", 
+  "Clostridium_sensu_stricto_1", "Weissella") %>% 
+  mutate(across(where(is.numeric), ~ round(.x, 4)))
+write_xlsx(table1_wide, "./Table1_R.xlsx")
+
+tables2_order <- c(
+  "others", "Enterococcus", "Streptococcus",
+  "Leuconostoc", "Escherichia-Shigella", "Weissella",
+  "Lactobacillus", "Lactococcus", "Klebsiella",
+  "Clostridium_sensu_stricto_1", "Terrisporobacter"
+)
+tableS2_wide <- table1_asv_genus %>%
+  mutate(Sample = factor(Sample, levels = custom_order)) %>%
+  arrange(Sample) %>%
+  pivot_wider(
+    names_from = Genus,
+    values_from = Abundance,
+    values_fill = 0
+  ) %>% 
+  mutate(across(where(is.numeric), ~ round(.x, 4))) %>% 
+  select(Sample, all_of(tables2_order))
+write_xlsx(tableS2_wide, "./TableS2_R.xlsx")

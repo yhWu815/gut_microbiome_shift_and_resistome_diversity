@@ -31,16 +31,18 @@
 
 ## Code files
 
-- **Figure1.R**: R script for Figure 1
+- **Figure1_Table1_TableS2.R**: R script for Figure 1, Table 1 and Table S2.
+
+- **Sequencing_Report.R** : R script for sequencing report.
 
 - **multidrug_polymyxin.ipynb**: Python notebook for multidrug and polymyxin ARG subtype heatmap plot.
 
 ## Data and Figure files
 
-- **Figure1.pdf & Figure1.svg**: Figure 1
+- **Figure1_revised.pdf & Figure1_revised.svg**: Figure 1
 
-- **FigureS1.pdf & FigureS1.svg**: Figure S1
+- **FigureS1_revised.pdf & FigureS1_revised.svg**: Figure S1
 
-- **Table1.xlsx**: Table 1
+- **Table1_R.xlsx**: Table 1 produced by R script
 
-- **Table2.xlsx**: Table 2
+- **TableS2.xlsx**: Table S2 made by R script

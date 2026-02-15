@@ -86,6 +86,10 @@ dependencies:
 
 - **lefse_results.txt.xls**: lefse analysis result produced by [Magigene Cloud Platform](http://cloud.magigene.com/).
 
+- **Table1.xlsx**: Table 1 made by python codes.
+
+- **TableS2.xlsx**: Table S2 made by python codes.
+
 ## Scripts and jupyter notebook files
 
 - **data_analysis_visualization.ipynb**: Script for Relative Abundance, Microbial Diversity analysis and Data visualization.
